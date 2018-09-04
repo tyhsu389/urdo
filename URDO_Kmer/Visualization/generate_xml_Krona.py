@@ -153,7 +153,7 @@ def check_values(dict_samplecounts, sample, otherlevels ):
 		genus, species, ctype, ptype = otherlevels
 		if genus in dict_samplecounts[sample]:
 			if species in dict_samplecounts[sample][genus]:
-				if ctype == 'characterization':
+				if ctype == 'characterization' and ctype in dict_samplecounts[sample][genus][species]:
 					if ptype in dict_samplecounts[sample][genus][species][ctype]:
 						kmer_count = sum( dict_samplecounts[sample][genus][species][ctype][ptype] )
 	return kmer_count
@@ -242,7 +242,7 @@ def main( ):
 							ctype_sum += sum( dict_samplecounts[sample][genus][species][ctype][ptype] )
 							ptype_set.add( ptype )
 						dict_samplecounts[sample][genus][species][ctype]['value'] = ctype_sum
-						sp_sum += ctype_sum
+						#sp_sum += ctype_sum #they are a subset, don't sum
 					else:
 						kmer_count = sum( dict_samplecounts[sample][genus][species][ctype] )
 						sp_sum += kmer_count
