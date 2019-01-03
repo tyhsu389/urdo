@@ -14,7 +14,7 @@ the two state laboratories involved include the Massachusetts State Laboratory a
 ### Goals
 The URDO project utilized k-mer-based methods for pathogen detection and characterization. Since the project \
 remains unpublished, these bioinformatic pipelines have been removed from the repository and its history \
-via [BFG](https://rtyley.github.io/bfg-repo-cleaner/).  
+via [BFG](https://rtyley.github.io/bfg-repo-cleaner/) before migration (from the CDC internal gitlab to github).  
 
 Tiffany specifically worked on two parts of the project:
 1. PCR primer generation for human rhinovirus for the chip-based multiplexed PCR
