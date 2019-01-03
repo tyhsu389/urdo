@@ -9,14 +9,15 @@ and bioinformatics analysis for pathogen detection (which microbe is this?) and 
 searching for resistance genes, etc).
 
 The CDC team is led by Jonas Winchell at the CDC National Center for Immunization and Respiratory Diseases (NCIRD), and \
-the two state laboratories involved include the Massachusetts State Laboratory and Minnesota Department of Public Health. \
+the two state laboratories involved include the Massachusetts State Laboratory and Minnesota Department of Public Health.
 
 ### Goals
-The URDO project utilized k-mer-based methods for pathogen detection and characterization. Since the project remains unfinished \
-and unpublished, these bioinformatic pipelines have been removed from the repository and its history via [BFG](https://rtyley.github.io/bfg-repo-cleaner/).  
+The URDO project utilized k-mer-based methods for pathogen detection and characterization. Since the project \
+remains unpublished, these bioinformatic pipelines have been removed from the repository and its history \
+via [BFG](https://rtyley.github.io/bfg-repo-cleaner/).  
 
 Tiffany specifically worked on two parts of the project:
-1. Primer generation for the chip-based multiplexed PCR
+1. PCR primer generation for human rhinovirus for the chip-based multiplexed PCR
 2. Visualization of the bioinformatics results 
 
 # Instructions
