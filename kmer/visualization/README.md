@@ -67,7 +67,7 @@ annotation, 2) Inexact match distance, 3) K-mer count
 4. `characterization`
   a. This folder contains files named `*_extended`.
   b. Each file is tab-delimited, with 5 fields in the order of 1) K-mer 
-sequence (defining the trait), 2) Taxon annotation, 3) Phenotype, 
-4) Detailed characterization of phenotype, 5) K-mer count
+sequence (defining the trait), 2) Taxon annotation, 3) Phenotype, 4) Detailed
+characterization of phenotype, 5) K-mer count
 5. `total_kmers`
   a. This file contains the total number of k-mers per sample.
