@@ -1,0 +1,7 @@
+kmer_sequence	bacteria_A species_0	Type 1	-	23450
+kmer_sequence	bacteria_A species_0	Macrolide Resistant	mutation_G->C	105
+kmer_sequence	bacteria_A species_0	Macrolide Resistant	mutation_G->A	3
+kmer_sequence	bacteria_A species_0	Macrolide Resistant	mutation_G->A	147
+kmer_sequence	bacteria_A species_0	Suceptible	mutation_T->A	32733
+kmer_sequence	bacteria_A species_0	Macrolide Resistant	mutation_G->C	4
+kmer_sequence	bacteria_A species_0	Macrolide Resistant	mutation_T->C	122

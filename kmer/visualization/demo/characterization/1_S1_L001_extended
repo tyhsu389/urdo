@@ -1,0 +1,3 @@
+kmer_sequence	bacteria_A species_0	Type 1	-	14
+kmer_sequence	bacteria_A species_0	Suceptible	mutation_T->A	10
+kmer_sequence	bacteria_A species_0	Macrolide Resistant	mutation_T->C	1
